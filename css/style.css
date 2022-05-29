@@ -1,0 +1,104 @@
+/* INICIO  HEADER */
+.header {
+    height: 300px;
+    border: 1px solid #000;
+    background-color: #2F343B;
+    display: flex;
+}
+.header .contenenedor-titulos{
+    width: 40%;
+    margin-left: 90px;
+}
+.header .contenenedor-titulos__h1{
+    font-size: 100px;
+    color: #fff;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-left: 80px;
+}
+.header .contenenedor-titulos__h1 .span-h1{
+    color: #E2001A;
+}
+.header .contenenedor-titulos .contenenedor-titulos__h2{
+    font-size: 30px;
+    margin-top: 0px;
+    color: #097AB2;
+    text-align: center;
+}
+.header .contenedor-imagen{
+    margin-left: 300px;  
+}
+.header .contenedor-imagen .contenedor-imagen__img{
+    width: 535px;
+}
+/* FIN  HEADER */
+
+/* INICIO  MAIN */
+.contenedor-producto{
+    width: 100%;
+    margin: 30px auto;
+}
+.contenedor-producto-imagen{
+    width: 65%;
+    margin: 0px auto;
+}
+.contenedor-producto-imagen__img, .contenedor-producto-imagen__contenedor__texto{
+    display: inline-block;
+}
+.contenedor-producto-imagen__img{
+    margin-top: 20px;
+    height: 300px;
+    width: 450px;
+    border-radius: 20px;
+    border-right: 9px solid #097AB2;
+    border-bottom:9px solid #097AB2; 
+    border-top: 2px solid #097AB2;
+    border-left: 2px solid #097AB2;
+}
+.contenedor-producto-imagen__contenedor__texto{
+    margin-left: 100px;
+    vertical-align: top;
+    margin-top: 90px;
+    width: 40%;
+}
+.contenedor-producto-imagen__h3{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: #E2001A;
+}
+.contenedor-producto-imagen__parrafo{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #097AB2;
+    border-radius: 5px;
+}
+.hr{
+    margin-top: 30px;
+    background-color: #097AB2;
+    padding: 1px;
+}
+/* FIN  MAIN */
+
+/* INICIO  FOOTER */
+.footer{
+    padding: 10px;
+    background-color: #E2001A;
+    color: #fff;
+}
+.footer .footer__parrafo{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+.footer__hr{
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 1px;
+}
+/* FIN  FOOTER */
